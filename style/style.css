@@ -1,0 +1,328 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body{
+    background: url(./assests/bg_meio.jpg);
+    font-family: 'Poppins', sans-serif;
+}
+    
+   /* Section1 */
+
+
+.headerContainer{
+    padding: 10px;
+    
+    
+    display:flex;
+    
+    justify-content: space-between;
+}
+.logo-kabum{
+   width: 150px;
+    
+}
+.menuContainer{
+    
+    list-style:none;
+    text-decoration-line: none;
+   
+}
+.menuContainer ul li{
+    
+    display:inline-block;
+    
+}
+.menuContainer li {
+    background-color: #f15b27;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.menuContainer a{
+    color: white;
+    text-decoration-line: none;
+}
+.img-inicioBody{
+    display :flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-ninja{
+    border-radius: 5px;
+    width: 100%;
+    height: 50vh;
+}
+
+
+.section1{
+    background-color: white;
+    width: 90%;
+    margin-left: 5%;
+    padding: 2%;
+    border-radius: 5px;
+
+    padding-top: 10px;
+    font-size:25px;
+    text-align: center;
+}
+
+
+.info-kabum h3{
+    text-align:center;
+    font-size:20px;
+    margin-bottom: 2%;
+}
+
+.card-info{
+   
+    border-top: 1px solid orange;
+    padding: 10px;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:17px;
+    text-align: justify;
+    line-height: 27px;
+
+}
+
+.img-dpi{
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 4px;
+   
+
+}
+
+/*- Section 2 -*/
+
+.section2{
+   
+    background-color: white;
+    width: 90%;
+    margin-left: 5%;
+    padding: 2%;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size:25px;
+    text-align: center;
+   
+}
+
+.produtos{
+    border-top: 1px solid orange;
+    padding:10px;
+    margin-top: 20px;
+    width: 100%;
+    display:flex;
+    justify-content:space-between;
+   
+}
+.produto-1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:5px;
+    width: 200px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    
+}
+
+.produto-2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:5px;
+    width: 200px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.produto-3{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:5px;
+    width: 200px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.produto-4{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:5px;
+    width: 200px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.img-1{
+    width: 100px;
+}
+
+.img-2{
+    width: 100px;
+}
+.img-3{
+    width: 100px;
+}
+.img-4{
+    width: 100px;
+}
+
+.botao{
+    margin-bottom: 5px;
+    font-weight: bold;
+    background-color: #f19a1c;
+    border-radius: 10px;
+    padding: 8px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+.botao:hover{
+    transition: 1s;
+    background-color: #f15b27;
+    transform: scale(1.05);
+    
+}
+
+/* Section3 */
+
+.section3{
+    width: 100%;
+    background-color:#f19a1c;
+    padding: 50px;
+    display: flex;
+    
+    
+}
+
+.assine-ofertas{
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.assine-ofertas h4{
+    font-size:20px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.assine-ofertas p {
+    font-size:20px;
+    text-align: center;
+}
+
+label{
+    font-weight: bold;
+    color:white;
+}
+
+input{
+    border-radius: 5px;
+    padding:2px;
+}
+
+.btn-form{
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 10px;
+    justify-content:center;
+    border-radius: 10px;
+    background-color: rgb(242, 243, 243);
+}
+.btn-form:hover{
+    background-color:rgb(172, 168, 168);
+    transform: scale(1.05);
+    transition:1s;
+}
+
+.footer{
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    background-color:aquamarine;
+}
+
+.effectMenu:hover{
+    color:black;
+    transition: 1s;
+    
+}
+
+
+@media screen and (max-width: 941px ) {
+
+    .produtos{
+        flex-wrap: wrap;
+    }
+    .produto-1, .produto-2, .produto-3, .produto-4{
+        margin: 5px;
+        
+    }
+
+   .img-dpi{
+       width: 80%;
+   }
+   
+    
+}
+
+@media screen and (max-width:691px){
+    .section1 {
+        font-size:15px;
+    }
+
+    .section2 h3{
+        font-size:30px;
+    }
+    .section2 h4 {
+        font-size:20px;
+    }
+    
+}
+
+@media screen and (max-width:641px){
+
+
+    label{  
+        align-items: center;
+        display:flex;
+        flex-direction:column;
+    
+    }
+
+    input{
+        display: block;
+        margin: 0 auto;
+    }
+    
+
+}
+
+@media screen and (max-width:500px){
+
+    .headerContainer{
+        display:inline-block;
+        width: 100%;
+    }
+    .logo-kabum{
+        margin-left: auto;
+        margin-right: auto; 
+
+    }
+    .menuContainer{
+       text-align: center;
+    }
+  
+    
+
+}
