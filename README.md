@@ -1,6 +1,6 @@
 ## HiringCoders
 
-Projeto da Hiring Coders, para construção de uma landing page usando apenas HTML, CSS e JS
+Projeto da Hiring Coders, para construção de uma landing page e salvar os cadastros do usuario e produtos no localStorage usando apenas HTML, CSS e JS
 
 <div> 
   <div style="display: inline_block"><br>
