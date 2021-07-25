@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>KabuM | Produto</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="./style/style2.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet"> 
+    <link rel="sortcut icon" href="/assests/logo_kabum_mobile.svg" type="image/x-icon" />
+    <script src="./components/funcoes.js"></script>
+</head>
+
+<body onload="carregarTotalEstoque('totalEstoque')">
+
+
+    <header class="headerContainer">
+        <!--Header-->
+        <div class="logo-kabum-login">
+            <a href="/index.html"> <img src="./assests/logo_kabum_mobile.svg" alt="logo" ></a>
+        </div>
+    </header>
+
+    <!--Carrinho de compras-->
+    
+    
+    <!--Formulário: Nome, código e quantidade de produtos-->
+    <section class="body-carrinho">
+        <form>
+            <h3>Realize aqui o cadastro de um novo produto</h3>
+            <table>
+               
+                <!--Nome do produto-->
+                <tr>
+                    <td class="alinharRotulos">Nome do produto:</td>
+                    <td><input id="txtNomeProduto" type="text"></td>
+                </tr>
+                <!--Código do produto-->
+                <tr>
+                    <td class="alinharRotulos">Código do produto:</td>
+                    <td><input id="txtCodProduto" type="text"></td>
+                </tr>
+                <!--Quantidade do produto-->
+                <tr>
+                    <td class="alinharRotulos">Quantidade do produto:</td>
+                    <td>
+                        <select id="qtidadeProduto">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </td>
+                </tr>
+                <!--Botoes-->
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="button" value="Cadastrar" class="alinhaBtns" onclick="validarProduto('txtNomeProduto','txtCodProduto','qtidadeProduto')">
+                        <input type="button" value="Ver estoque" class="alinhaBtns" onclick="window.open('verEstoque.html','_self')">
+                        <input type="reset" value="Limpar" class="alinhaBtns">
+                    </td>
+                </tr>
+            </table>
+
+            
+        </form>
+        <div class="carrinho">
+            
+            <p>Itens no estoque: <span id="totalEstoque">0</span></p>
+        </div>
+        <div class="carr">
+            <a class="rotaa" href="./index.html">Home</a>
+        </div>
+        
+        
+    </section>
+    
+</body>
+
+</html>

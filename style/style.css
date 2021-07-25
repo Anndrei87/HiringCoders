@@ -258,6 +258,172 @@ input{
     
 }
 
+/* Pagina de carrinhos*/
+
+.rotas-cliente-produto{
+
+    background-color: white;
+    width: 90%;
+    margin-left: 5%;
+    padding: 2%;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size:25px;
+    text-align: center;
+    height: 100vh;
+
+}
+
+.img-faq{
+    width: 80%;
+}
+
+.rota{
+    background-color: #f19a1c;
+    color: white;
+    padding:8px 10px;
+    border-radius: 20px;
+}
+.rota:hover{
+    color:black;
+    transition: 1s;
+    background-color: #f15b27;
+    transform: scale(1.1);
+    
+}
+.text-carrinho{
+    text-decoration: none;
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.text-carrinho h3{
+    color:#f19a1c;
+    margin-bottom: 20px;
+}
+.container-rota a{
+    text-decoration: none;
+}
+
+.sub-container{
+    width: 40%;
+}
+
+
+.container-rota{
+    margin-top: 30px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+/*Cliente*/
+
+.logo-kabum-login{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.formulario{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.center{
+    background-color: white;
+    padding: 1%;
+    border-radius: 5px;
+    padding-top: 10px;
+    font-size:25px;
+    height: 40vh;
+}
+
+.login{
+    font-size:25px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-cliente{
+    margin-top: 5%;
+    display: flex;
+    flex-direction:column;
+    width: 400px;
+    
+    
+}
+
+.form-cliente label{
+    color: black;
+    font-size: 15px;
+}
+
+.btn{
+   
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 10px;
+    justify-content:center;
+    background-color: #f19a1c;
+    color: white;
+}
+
+.btn:hover{
+    color:black;
+    transition: 1s;
+    background-color: #f15b27;
+    transform: scale(1.1);
+}
+
+.mainn h4{
+    color:white;
+    text-align: center;
+}
+
+.estoque{
+    background-color: white;
+    width: 90%;
+    margin-left: 5%;
+    padding: 2%;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size:25px;
+    height: 100vh;
+}
+.estoque ul{
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.estoque h3{
+    color: #f19a1c;
+    text-align: center;
+}
+
+#myid{
+    width: 300px;
+    background-color: blue;
+}
+
+
+
 
 @media screen and (max-width: 941px ) {
 

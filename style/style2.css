@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  body{
+      margin-top: 5%;
+      background: url(../../assests/bg_meio.jpg);
+      font-family: 'Poppins', sans-serif;
+  }
+
+
+.alinharRotulos {
+    text-align: right;
+}
+.alinhaBtns {
+    width:30%;
+    background-color: white;
+    color: #f19a1c;
+    font-weight: bold;
+    border:0px;
+    padding:5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.alinhaBtns:hover{
+    transition: 1s;
+    color:black;
+    transform: scale(1.05);
+}
+.carrinho {
+    width:300px; 
+    float:right;
+}
+
+.body-carrinho{
+   
+    background-color: white;
+    width: 70%;
+    margin-left: 2%;
+    padding: 2%;
+    border-radius: 5px;
+
+    padding-top: 10px;
+    font-size:20px;
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.carrinho  {
+   display: contents;
+}
+table {
+    clear:both; 
+    background-color:#f19a1c;
+    border-radius: 10px; 
+    color:white;
+    padding:10px;
+    width:50%;
+    margin:auto;
+}
+caption {
+    color:rgb(213,97,100); 
+    font-weight: bold; 
+    font-size: 25px;
+}
+
+.carr{
+    width: 30%;
+    margin: 0 auto;
+    
+   
+}
+.rotaa{
+    background-color: #f19a1c;
+    color: white;
+    padding:8px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.rotaa:hover{
+    color:black;
+    transition: 1s;
+    transform: scale(1.05);
+}
+button{
+    cursor: pointer;
+    margin: 0 auto;
+}
+.rota2{
+    margin:0px auto;
+    width: 300px;
+    font-size: 20px;
+    background-color: #f19a1c;
+    color: white;
+    padding:8px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.rota2:hover{
+    color:black;
+    transition: 1s;
+    
+}
+
+.list{
+    margin-top: 20px;
+
+}

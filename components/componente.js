@@ -1,4 +1,4 @@
-
+// Form do index html
 document.getElementById("button").addEventListener("click", 
 
 function(event){
@@ -14,9 +14,10 @@ function(event){
     localStorage.setItem("Nome", handleInputNome)
     localStorage.setItem("Email", handleInputEmail)
            
-            console.log("entrou")
+            console.log("Salvo")
 })
-        
+
+
     
 
   
